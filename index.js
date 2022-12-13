@@ -3,7 +3,7 @@ const  { Client, LocalAuth } = require('whatsapp-web.js')
 const { Configuration, OpenAIApi } = require("openai")
 const keynya = "Insert Your apikey"  //Input your OpenAI api-Key -> https://beta.openai.com/account/api-keys
 const configuration = new Configuration({
-  apiKey: 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,
+  apiKey: XVljAgxDYPbd4iyb7Ip0T3BlbkFJcXwIvEgirWHJYAm7n7O7,
 });
 const openai = new OpenAIApi(configuration);
 let { ucaphalo } = require('./lib')
